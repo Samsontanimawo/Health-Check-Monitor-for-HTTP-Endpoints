@@ -6,7 +6,18 @@ Make sure you have Node.js installed on your machine. You can download it from n
 Prepare a YAML file with the HTTP endpoints you want to monitor. You can use vs code and bash. Follow the below steps:
 
 
-mkdir health-checker or create the folder in vs code and run the below commands.
+open your terminal and run mkdir health-checker or create the folder and run the below commands.
+
+cd health-checker
+
+npm init -y
+
+npm install axios js-yaml
+
+#############################################################################################
+
+Or download the repo Health-Check-Monitor-for-HTTP-Endpoints-main, rename it to health-checker, open vs code, and run the below commands:
+
 
 cd health-checker
 
@@ -20,9 +31,9 @@ npm install axios js-yaml
 
 -js-yaml is for parsing YAML files.
 
-Create a file named endpoints.yaml in the project directory with the content of endpoints.yaml file.
+Create a file named endpoints.yaml in the project directory with the content of endpoints.yaml file if the file doesn't exist in your directory.
 
-Create another file named healthChecker.js with the content of healthChecker.js file.
+Create another file named healthChecker.js with the content of healthChecker.js file if the file doesn't exist in your directory.
 
 To run the program, use the following command in the terminal, replacing endpoints.yaml with the path to your YAML file:
 
@@ -45,8 +56,11 @@ fetch.com has 67% availability percentage
 www.fetchrewards.com has 100% availability percentage
 
 Make sure that the URLs in the YAML file are valid and accessible.
+
 Modify the YAML file to include any endpoints you want to monitor.
 
 gitHubendpoints.yaml is another endpoint for testing.
 
 healthCheckerAvailabilityAndLatency.js is another js file for advanced latency and availability monitoring.
+
+For any questions, please reach out to me at engr.tanimawo@yahoo.com. I will be happy to help you.

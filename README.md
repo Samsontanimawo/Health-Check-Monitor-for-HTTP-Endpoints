@@ -46,3 +46,7 @@ www.fetchrewards.com has 100% availability percentage
 
 Make sure that the URLs in the YAML file are valid and accessible.
 Modify the YAML file to include any endpoints you want to monitor.
+
+gitHubendpoints.yaml is another endpoint for testing.
+
+healthCheckerAvailabilityAndLatency.js is another js file for advanced latency and availability monitoring.

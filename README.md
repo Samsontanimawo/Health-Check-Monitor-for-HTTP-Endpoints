@@ -65,8 +65,8 @@ Modify the YAML file to include any endpoints you want to monitor.
 
 gitHubendpoints.yaml is another endpoint for testing.
 
-healthCheckerAvailabilityAndLatency.js is another js file for advanced latency and availability monitoring.
+healthCheckerAvailabilityAndLatency.js is another JS file for advanced latency and availability monitoring.
 
 For any questions, please reach out to me at engr.tanimawo@yahoo.com. I will be happy to help you.
 
-This is the live project link: https://endpoints-health-monitor-fbe2682cf30d.herokuapp.com/
+This is the LIVE PROJECT link: https://endpoints-health-monitor-fbe2682cf30d.herokuapp.com/
